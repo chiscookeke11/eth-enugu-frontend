@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     "Bringing South-East onchain",
   ],
   applicationName: "ETHEnugu '25",
-  authors: [{ name: "ETHEnugu Team", url: "https://ethenugu.xyz" }],
+  authors: [{ name: "ETHEnugu Team", url: "https://eth-enugu.xyz" }],
   creator: "ETHEnugu Team",
   publisher: "ETHEnugu",
   generator: "Next.js",
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     title: "ETH Enugu '25",
     description:
       "Nigeria's first Builder Residency & Pop-up City + South-East Nigeria's First Ethereum Conference",
-    url: "https://ethenugu.xyz",
+    url: "https://eth-enugu.xyz",
     siteName: "ETH Enugu '25",
     images: [
       {
@@ -94,7 +94,7 @@ export const metadata: Metadata = {
     creator: "@Eth_Enugu",
     images: ["./favicon.ico"],
   },
-  metadataBase: new URL("https://ethenugu.xyz"),
+  metadataBase: new URL("https://eth-enugu.xyz"),
 };
 
 export default function RootLayout({
