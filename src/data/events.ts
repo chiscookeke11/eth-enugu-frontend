@@ -22,7 +22,7 @@ export const events = [
   },
   {
     id: 2,
-    title: "EthEnugu '25 Pop-Up City",
+    title: "EthEnugu '26 Pop-Up City",
     description:
       "The pop up is different from the residency, there's no accommodation. Open to students, designers, developers, or any curious mind, you can come from your home each day.",
     features: [
@@ -41,7 +41,7 @@ export const events = [
   },
   {
     id: 3,
-    title: "Conference/Summit '25",
+    title: "Conference/Summit '26",
     description:
       "This is the final event – a grand conference that brings everyone together: the residents, the local community, global guests, and industry leaders. Celebrating everything built and learned during the residency and pop-up experience",
     features: [

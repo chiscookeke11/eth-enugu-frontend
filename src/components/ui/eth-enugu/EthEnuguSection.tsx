@@ -20,7 +20,7 @@ const EthEnuguSection = () => {
           <div className="md:text-left text-center">
             <h3 className="md:text-4xl text-sm text-gray-800">What is</h3>
             <h1 className="mt-2 text-7xl font-bold tracking-tight text-gray-900">
-              EthEnugu <span className="text-orange-500">&lsquo;25</span>
+              EthEnugu <span className="text-orange-500">&lsquo;26</span>
             </h1>
           </div>
         </div>

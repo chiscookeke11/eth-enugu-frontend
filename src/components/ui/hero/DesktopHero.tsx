@@ -21,7 +21,7 @@ export default function DesktopHero() {
             />
             &nbsp;
             <LetterSlideUp
-              text="'25"
+              text="'26"
               className="text-[7.75em] font-bold text-amber-850"
             />
           </span>
@@ -64,7 +64,7 @@ export default function DesktopHero() {
             <span className="w-14 h-14 flex items-center justify-center text-white rounded-full bg-amber-550 border border-black">
               <Icon icon="lucide:calendar" width={36} height={36} />
             </span>
-            <h3 className="w-full max-w-32">04-16th Aug. 2025</h3>
+            <h3 className="w-full max-w-32">04-16th Aug. 2026</h3>
           </div>
         </div>
       </div>

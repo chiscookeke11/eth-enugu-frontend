@@ -20,7 +20,7 @@ const AboutSection = () => {
     <>
       <div className=" m-auto md:px-8 md:py-10 py-9 w-11/12">
         <h2 className="text-2xl font-bold text-center text-green-550 mb-4">
-          About EthEnugu &lsquo;25
+          About EthEnugu &lsquo;26
         </h2>
         <p className="text-dark text-center md:text-left text-lg mb-6 max-md:text-justify">
           Nestled in the hills of southeastern Nigeria, Enugu—fondly known as

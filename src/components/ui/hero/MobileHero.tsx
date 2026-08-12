@@ -28,7 +28,7 @@ export default function MobileHero() {
             className="text-center text-5xl font-bold"
           />
           <LetterSlideUp
-            text="'25"
+            text="'26"
             className="text-center text-5xl font-bold text-amber-850"
           />
         </span>

@@ -3,13 +3,13 @@ import "./globals.css";
 import Providers from "@/components/providers";
 
 export const metadata: Metadata = {
-  title: "ETH Enugu '25",
+  title: "ETH Enugu '26",
   description:
     "Nigeria's first Builder Residency & Pop-up City + South-East Nigeria's First Ethereum Conference",
   keywords: [
     "Builders' Residency",
     "Ethereum Builders",
-    "EthEnugu 2025",
+    "EthEnugu 2026",
     "EthEnugu",
     "EthEnugu Conference",
     "EthEnugu Summit",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     "042 and South-East onchain",
     "Bringing South-East onchain",
   ],
-  applicationName: "ETHEnugu '25",
+  applicationName: "ETHEnugu '26",
   authors: [{ name: "ETHEnugu Team", url: "https://eth-enugu.xyz" }],
   creator: "ETHEnugu Team",
   publisher: "ETHEnugu",
@@ -69,17 +69,17 @@ export const metadata: Metadata = {
     apple: "./favicon.ico",
   },
   openGraph: {
-    title: "ETH Enugu '25",
+    title: "ETH Enugu '26",
     description:
       "Nigeria's first Builder Residency & Pop-up City + South-East Nigeria's First Ethereum Conference",
     url: "https://eth-enugu.xyz",
-    siteName: "ETH Enugu '25",
+    siteName: "ETH Enugu '26",
     images: [
       {
         url: "./favicon.ico",
         width: 1200,
         height: 630,
-        alt: "ETH Enugu '25",
+        alt: "ETH Enugu '26",
       },
     ],
     locale: "en_NG",
@@ -87,7 +87,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ETH Enugu '25",
+    title: "ETH Enugu '26",
     description:
       "Nigeria's first Builder Residency & Pop-up City + South-East Nigeria's First Ethereum Conference",
     site: "@Eth_Enugu",

@@ -31,7 +31,7 @@ export const modal_links = [
   {
     title: "Conference Registration",
     description:
-      "Register to attend the ETH Enugu Conference/Summit '25. Connect with the Ethereum community, learn from experts, and be part of shaping the future of Web3 in Enugu.",
+      "Register to attend the ETH Enugu Conference/Summit '26. Connect with the Ethereum community, learn from experts, and be part of shaping the future of Web3 in Enugu.",
     link: "/conference-application",
   },
   {
