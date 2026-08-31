@@ -1,17 +1,27 @@
 import Image from "next/image";
 
 const AboutSection = () => {
+
+
   const times = [
     {
-      title: "2-Weeks",
-      description: "Builder's Residency, A PopUp City",
+      title: "4 Days",
+      description: "Regional Blockchain & Games Week",
       icon: "icon1",
     },
-    { title: "5 Days", description: "Hackathon", icon: "icon2" },
-    { title: "Enugu", description: "City", icon: "icon3" },
     {
-      title: "1st ETH Conference",
-      description: "In South-East",
+      title: "6 States",
+      description: "Build Stations",
+      icon: "icon2",
+    },
+    {
+      title: "4+ Tournaments",
+      description: "Gaming & Esports",
+      icon: "icon3",
+    },
+    {
+      title: "Enugu",
+      description: "Main Event",
       icon: "icon4",
     },
   ];
@@ -20,22 +30,25 @@ const AboutSection = () => {
     <>
       <div className=" m-auto md:px-8 md:py-10 py-9 w-11/12">
         <h2 className="text-2xl font-bold text-center text-green-550 mb-4">
-          About EthEnugu &lsquo;26
+          EthEnugu &lsquo;25: A First for Nigeria. <br /> A First for the South East.
         </h2>
         <p className="text-dark text-center md:text-left text-lg mb-6 max-md:text-justify">
-          Nestled in the hills of southeastern Nigeria, Enugu—fondly known as
-          The Coal City—has long been a symbol of resilience, heritage, and
-          innovation. From its colonial-era coal mines to its bustling streets
-          filled with Igbo art, tech startups, and spirited youth, Enugu stands
-          as a city rich in culture and ambition.
+          In August 2025, Enugu State, Nigeria became more than a city. For two unforgettable weeks,
+          it became a living experiment; a pop-up city of builders, dreamers, creators, and innovators.
+
+          And then, history was sealed: the first-ever Ethereum conference in Nigeria,
+          right here in the heart of 042, bringing the Southeast officially Onchain.
         </p>
-        <p className="text-dark text-center md:text-left text-lg mx-auto max-md:text-justify">
-          EthEnugu is where this spirit meets the future. It&lsquo;s more than
-          an event-it&lsquo;s an experience connecting Enugu&lsquo;s vibrant
-          energy with the decentralized world of Ethereum & L2s. Here, builders,
-          creators and thinkers come together to mint ideas, join the growing
-          web3 ecosystem, and co-create the future, bringing 042 & Africa
-          onchain.
+        <p className="text-dark text-center md:text-left text-lg mb-6 max-md:text-justify">
+          In 2026, the story continues.
+        </p>
+        <p className="text-dark text-center md:text-left text-lg mx-auto max-md:text-justify mb-6">
+          This year, Enugu becomes the beating heart of Southeast Blockchain & Games Week, connecting blockchain, gaming, builders, creators, and the wider digital economy.
+          From Build Stations across the region to esports, hackathons, creator challenges, exhibitions, and a major gathering in Enugu, the movement is evolving into a regional network of participation.
+        </p>
+
+        <p className="text-dark text-center md:text-left text-lg  max-md:text-justify">
+          We brought the Southeast Onchain. Now, we bring the region together to build, compete, create, connect, and win.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 space-y-4 md:space-y-0 mt-20 items-center justify-center text-dark text-center">

@@ -34,7 +34,7 @@ export default function LinksDisplayModal({
               height={32}
               alt="ETH Enugu Logo"
             />
-            <span>Join ETH Enugu 2025</span>
+            <span>Join ETH Enugu 2026</span>
           </div>
         }
       >

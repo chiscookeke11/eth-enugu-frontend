@@ -2,8 +2,7 @@ import Image from "next/image";
 import {
   times,
   content,
-  CommunityPartners1,
-  CommunityPartners2,
+  sponsors,
 } from "./_data";
 
 const EthEnuguSection = () => {
@@ -55,10 +54,10 @@ const EthEnuguSection = () => {
           <div className="py-10 -mx-4 px-4 sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8">
             <div className="max-w-7xl mx-auto">
               <h3 className="text-green-550 font-bold text-xl mb-4">
-                Our Partners
+                EthEnugu ‘25 Sponsors:
               </h3>
               <div className="flex flex-wrap md:justify-start justify-center gap-4 sm:gap-6">
-                {CommunityPartners1.map((partner, idx) => (
+                {sponsors.map((partner, idx) => (
                   <div
                     key={idx}
                     className="w-36 h-16 sm:w-48 sm:h-20 border border-dark rounded-xl bg-center bg-no-repeat bg-contain"
@@ -67,16 +66,7 @@ const EthEnuguSection = () => {
                   />
                 ))}
               </div>
-              <div className="flex flex-wrap md:justify-start justify-center gap-4 sm:gap-6">
-                {CommunityPartners2.map((partner, idx) => (
-                  <div
-                    key={idx}
-                    className="w-36 h-16 sm:w-48 sm:h-20 border border-dark rounded-xl bg-center bg-no-repeat bg-contain"
-                    style={{ backgroundImage: `url(${partner.logo})` }}
-                    title={partner.name}
-                  />
-                ))}
-              </div>
+
             </div>
           </div>
         </section>

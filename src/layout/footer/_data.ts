@@ -12,16 +12,12 @@ export const foot_nav = {
   "quick links": [
     {
       title: "Become a Mentor/Speaker",
-      link: "/speaker-application",
+      link: "https://letsdap.com/sebchaingameswk/register",
     },
     {
       title: "Get a Ticket",
-      link: "",
+      link: "https://letsdap.com/sebchaingameswk/register",
     },
-    // {
-    //   title: "Blog",
-    //   link: "/blog",
-    // },
   ],
   resources: [
     {

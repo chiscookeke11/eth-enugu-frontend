@@ -27,8 +27,8 @@ export default function DesktopHero() {
           </span>
 
           <span className="flex flex-col items-center justify-center text-center -mt-20">
-            <WordSlideUp text="Nigeria's first Builder Residency & Pop-up City + South-East Nigeria's First Ethereum Conference" />
-            <WordSlideUp text="From Enugu to the Ethereum network — a gathering of minds, culture, and innovation." />
+            <WordSlideUp text="South-East Nigeria's Ethereum Conference + Southeast Blockchain & Games Week" />
+            <WordSlideUp text="From Enugu to the region — bringing together builders, gamers, creators, and the digital economy." />
           </span>
         </div>
 
@@ -64,7 +64,7 @@ export default function DesktopHero() {
             <span className="w-14 h-14 flex items-center justify-center text-white rounded-full bg-amber-550 border border-black">
               <Icon icon="lucide:calendar" width={36} height={36} />
             </span>
-            <h3 className="w-full max-w-32">04-16th Aug. 2026</h3>
+            <h3 className="w-full max-w-32">16-19th Sept. 2026</h3>
           </div>
         </div>
       </div>

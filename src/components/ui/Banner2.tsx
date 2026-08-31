@@ -34,7 +34,7 @@ const Banner2 = ({ title, content }: ItemProps) => {
             />
             <div className="absolute inset-0 top-5 text-green-700 font-bold text-xs md:text-sm px-3 py-1 rounded shadow rotate-[-15deg]">
               EVENT DATE <br />
-              <span className="text-sm md:text-base">04-16 AUG, 2025</span>
+              <span className="text-sm md:text-base">16-19th SEPT, 2025</span>
             </div>
           </div>
         </div>
@@ -48,7 +48,7 @@ const Banner2 = ({ title, content }: ItemProps) => {
         </p>
 
         <div className="flex justify-center items-center">
-          <Link href="/speaker-application">
+          <Link href="https://letsdap.com/sebchaingameswk/register">
             <button className="relative md:w-32 w-28 md:h-32 h-28 cursor-pointer hover:animate-pulse">
               <Image
                 src="/badge/badge1.svg"

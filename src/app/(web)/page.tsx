@@ -21,7 +21,7 @@ export default function Home() {
         content="Apply to mentor talents at the Pop-up city OR speak at the ETH Enugu Conf/Summit and make lasting impacts in the Southeast tech ecosystem."
       />
       <PartnerSponsor />
-      <FaqSection />
+      {/* Testimonials here */}
       <ScrollingText />
     </>
   );

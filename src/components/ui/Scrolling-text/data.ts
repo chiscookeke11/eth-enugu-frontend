@@ -3,5 +3,6 @@ export const text = [
   "BlockchainEnugu",
   "TechMeetsCulture",
   "EthereumAfrica",
-  "Ethenugu2025",
+  "Ethenugu2026",
+  "Southeast Blockchain & Games Week"
 ];

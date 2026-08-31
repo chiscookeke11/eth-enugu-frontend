@@ -34,31 +34,19 @@ export default function MobileHero() {
         </span>
         <span className="w-full px-8 text-center flex flex-col items-center justify-center">
           <WordSlideUp
-            text="Nigeria's first Builder Residency & Pop-up City +"
+            text="South-East Nigeria's Ethereum Conference +"
             className="text-center text-sm"
           />
           <WordSlideUp
-            text="South-East Nigeria's First Ethereum Conference"
+            text="Southeast Blockchain & Games Week"
             className="text-center text-sm"
           />
-          {/* <WordSlideUp
-            text=""
-            className="text-center"
-          />
           <WordSlideUp
-            text=""
-            className="text-center"
-          />
-          <WordSlideUp
-            text=""
-            className="text-center"
-          /> */}
-          <WordSlideUp
-            text="From Enugu to the Ethereum network — a"
+            text="From Enugu to the region — a gathering of"
             className="text-center text-sm mt-2"
           />
           <WordSlideUp
-            text="gathering of minds, culture, and innovation."
+            text="builders, gamers, creators, and innovators."
             className="text-center text-sm"
           />
         </span>
@@ -80,7 +68,7 @@ export default function MobileHero() {
           design="rounded"
           size="sm"
           className="flex items-center gap-3"
-          onClick={() => router.push("/speaker-application")}
+          onClick={() => (window.location.href = "https://letsdap.com/sebchaingameswk/register")}
         >
           Apply to Mentor/Speak
           <Icon icon="solar:arrow-right-linear" width={18} height={18} />

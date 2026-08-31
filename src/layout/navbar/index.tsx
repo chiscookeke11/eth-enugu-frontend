@@ -8,7 +8,6 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import MobileNav from "./MobileNav";
 import LinksDisplayModal from "./LinksDisplayModal";
-import GenerateDpLinks from "./GenerateDpLinks";
 
 export default function Navbar() {
   const pathname = usePathname();
@@ -45,27 +44,23 @@ export default function Navbar() {
             <Link
               key={idx}
               href={item?.link}
-              className={`text-base font-medium transition-colors duration-200 hover:text-green-550 ${
-                pathname === item.link
-                  ? "text-green-550 font-semibold"
-                  : "text-gray-700"
-              }`}
+              className={`text-base font-medium transition-colors duration-200 hover:text-green-550 ${pathname === item.link
+                ? "text-green-550 font-semibold"
+                : "text-gray-700"
+                }`}
             >
               {item?.title}
             </Link>
           ))}
 
-          <GenerateDpLinks pathname={pathname} />
-
           {navbar_items.slice(3, 4).map((item, idx) => (
             <Link
               key={idx}
               href={item?.link}
-              className={`text-base font-medium transition-colors duration-200 hover:text-green-550 ${
-                pathname === item.link
-                  ? "text-green-550 font-semibold"
-                  : "text-gray-700"
-              }`}
+              className={`text-base font-medium transition-colors duration-200 hover:text-green-550 ${pathname === item.link
+                ? "text-green-550 font-semibold"
+                : "text-gray-700"
+                }`}
             >
               {item?.title}
             </Link>
@@ -81,7 +76,7 @@ export default function Navbar() {
           >
             Register for event
           </Button>
-          <Link href={"/speaker-application"}>
+          <Link href={"https://letsdap.com/sebchaingameswk/register"}>
             <Button
               type="button"
               variant="default"

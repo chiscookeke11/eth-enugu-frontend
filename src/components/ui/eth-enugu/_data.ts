@@ -1,14 +1,22 @@
 export const times = [
   {
-    title: "2-Weeks",
-    description: "Builder Residency, A Populo City",
+    title: "4 Days",
+    description: "Blockchain & Games Week",
     icon: "icon1",
   },
-  { title: "5 Days", description: "Hackathon", icon: "icon2" },
-  { title: "Enugu", description: "City", icon: "icon3" },
   {
-    title: "1st ETH Conference",
-    description: "In South-East",
+    title: "6 States",
+    description: "Build Stations",
+    icon: "icon2",
+  },
+  {
+    title: "4+",
+    description: "Gaming & Esports Competitions",
+    icon: "icon3",
+  },
+  {
+    title: "Enugu",
+    description: "Main Event",
     icon: "icon4",
   },
 ];
@@ -28,226 +36,9 @@ export const sponsors = [
   },
 ];
 
-export const localEcosystemSupportPartner = [
-  {
-    name: "Ethiopian Airlines",
-    logo: "/partners/eth-airlines.webp",
-  },
-  {
-    name: "Enugu Small and Medium Enterprise",
-    logo: "/partners/sme.png",
-  },
-  {
-    name: "IOTEX",
-    logo: "/partners/iotex-logo.jpg",
-  },
-  {
-    name: "⁠JetPad Finance",
-    logo: "/partners/jetpad-logo.png",
-  },
-  {
-    name: "DigitPay Finance",
-    logo: "/partners/digitPay.png",
-  },
-  {
-    name: "Horus Labs",
-    logo: "/partners/horus-labs.png",
-  },
-];
 
-export const hackathonBountySupporters = [
-  {
-    name: "Blockchain for Good Alliance",
-    logo: "/partners/bga-dark.png",
-  },
-  {
-    name: "Avalanche",
-    logo: "/partners/avalanche.png",
-  },
-  {
-    name: "Sui",
-    logo: "/partners/sui.jpg",
-  },
-];
 
-export const mediaPartner = [
-  {
-    name: "StreamETH",
-    logo: "/partners/streamEth.png",
-    link: "https://linktr.ee/StreamETH",
-  },
-  {
-    name: "Coingabbar",
-    logo: "/partners/coin-gabbar-logo.png",
-  },
-  {
-    name: "Crypto.news",
-    logo: "/partners/crypto-news.svg",
-    link: "https://crypto.news/",
-  },
-  {
-    name: "AmbCrypto",
-    logo: "/partners/amb-crypto.webp",
-    link: "https://ambcrypto.com/",
-  },
-  {
-    name: "HashtagWeb3",
-    logo: "/partners/hashtag-web3.png",
-    link: "https://t.me/web3hiring",
-  },
-  {
-    name: "KwekuTech",
-    logo: "/partners/kweku-tech-logo.png",
-    link: "https://zaap.bio/kwekutech",
-  },
-  {
-    name: "ICOHolder",
-    logo: "/partners/ico-holder.svg",
-    link: "https://icoholder.com/",
-  },
-  {
-    name: "The Coin Republic",
-    logo: "/partners/tcr-logo.png",
-    link: "https://www.thecoinrepublic.com/",
-  },
-  {
-    name: "The Market Periodical",
-    logo: "/partners/tmp-logo.png",
-    link: "https://www.thecoinrepublic.com/",
-  },
-  {
-    name: "Netmifi",
-    logo: "/partners/netmifi.jpg",
-    link: "https://x.com/GetNetmifi_hq",
-  },
-  {
-    name: "CoinBrit",
-    logo: "/partners/coinbrit.png",
-    link: "",
-  },
-];
 
-export const CommunityPartners1 = [
-  {
-    name: "Blockchain UNN",
-    logo: "/partners/BUNN-logo.svg",
-  },
-  {
-    name: "GIDA",
-    logo: "/partners/GIDA-logo.png",
-  },
-  {
-    name: "NextBridge Africa",
-    logo: "/partners/nextbridge-svg.svg",
-  },
-  {
-    name: "Beaconsmith Collective ",
-    logo: "/partners/beaconSmith.png",
-  },
-  {
-    name: "CREATIVE ALCHEMY ",
-    logo: "/partners/creative-alchemy-logo.png",
-  },
-  {
-    name: "The Mirror Hub",
-    logo: "/partners/the-mirror-logo.jpg",
-  },
-  {
-    name: "Women Techmakers Nsukka  ",
-    logo: "/partners/women-techmakers-logo.jpg",
-  },
-  {
-    name: "Women in Blockchain Africa   ",
-    logo: "/partners/wiba-logo.png",
-  },
-  {
-    name: "Blockchain Masters Academy",
-    logo: "/partners/BMA.png",
-  },
-  {
-    name: "Dev3pack ",
-    logo: "/partners/Dev3pack-logo.png",
-  },
-  {
-    name: "AFrica Blockchain Community",
-    logo: "/partners/abc-logo-full.png",
-  },
-  {
-    name: "Flare Africa",
-    logo: "/partners/flare.jpg",
-  },
-  {
-    name: "AlphaBlocks",
-    logo: "/partners/AlphaBlocks-Png-2.png",
-  },
-  {
-    name: "Builders Corner",
-    logo: "/partners/builders-corner.png",
-  },
-  {
-    name: "Blockchain ESUT",
-    logo: "/partners/blockChainEsut.png",
-  },
-];
-
-export const CommunityPartners2 = [
-  {
-    name: "WITTY FORUM",
-    logo: "/partners/WITTYDESIGN.jpg",
-  },
-  {
-    name: "Unizik Blockchain Labs (UBL)",
-    logo: "/partners/UBL.png",
-  },
-  {
-    name: "Blockchain Kogi",
-    logo: "/partners/Blockchain-kogi.png",
-  },
-  {
-    name: "Dome Academy",
-    logo: "/partners/Dome.png",
-  },
-  {
-    name: "ChainConnectNG",
-    logo: "/partners/chainConnect.png",
-  },
-  {
-    name: "Anambra web3 community",
-    logo: "/partners/anambraWeb3.png",
-  },
-  {
-    name: "Anambra techies Community",
-    logo: "/partners/anambra-techies.png",
-  },
-  {
-    name: "Google Developer Groups on Campus - University of Nigeria, Nsukka",
-    logo: "/partners/GDG.png",
-  },
-  {
-    name: "Learn Way",
-    logo: "/partners/learnway.png",
-  },
-  {
-    name: "IMT Blockchain",
-    logo: "/partners/imt.jpg",
-  },
-  {
-    name: "ETH Accra",
-    logo: "/partners/eth-accra.png",
-  },
-  {
-    name: "Kodex Africa",
-    logo: "/partners/kodex.png",
-  },
-  {
-    name: "Blockchain Uniben",
-    logo: "/partners/uniben.png",
-  },
-  {
-    name: "MGSWeb3",
-    logo: "/partners/mgs.jpg",
-  },
-];
 
 export const content = {
   about: {
