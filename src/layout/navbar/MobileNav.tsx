@@ -2,10 +2,8 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import { navbar_items } from "./_data";
 import Link from "next/link";
 import { Button } from "@/components/common/button";
-import { useRouter } from "next/navigation";
 import { hero_socials } from "@/components/ui/_data";
 import { motion, AnimatePresence } from "framer-motion";
-
 
 export default function MobileNav({
   isOpen,
@@ -16,8 +14,6 @@ export default function MobileNav({
   setIsOpen: (isOpen: boolean) => void;
   onClick: () => void;
 }) {
-  const router = useRouter();
-
   return (
     <AnimatePresence>
       {isOpen && (
@@ -65,7 +61,6 @@ export default function MobileNav({
                 </motion.div>
               ))}
 
-
             {navbar_items
               .filter((item) => item.title !== "Event")
               .slice(3, 4)
@@ -112,7 +107,8 @@ export default function MobileNav({
                   design="rounded"
                   className="flex items-center gap-3"
                   onClick={() => {
-                    (window.location.href = "https://letsdap.com/sebchaingameswk/register")
+                    window.location.href =
+                      "https://letsdap.com/sebchaingameswk/register";
                     setIsOpen(false);
                   }}
                 >

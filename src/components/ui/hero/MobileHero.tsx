@@ -7,11 +7,9 @@ import { Button } from "@/components/common/button";
 import LinksDisplayModal from "@/layout/navbar/LinksDisplayModal";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
 import { useState } from "react";
 
 export default function MobileHero() {
-  const router = useRouter();
   const [show, setShow] = useState<boolean>(false);
 
   const handleModalDisplay = () => {
@@ -68,7 +66,10 @@ export default function MobileHero() {
           design="rounded"
           size="sm"
           className="flex items-center gap-3"
-          onClick={() => (window.location.href = "https://letsdap.com/sebchaingameswk/register")}
+          onClick={() =>
+            (window.location.href =
+              "https://letsdap.com/sebchaingameswk/register")
+          }
         >
           Apply to Mentor/Speak
           <Icon icon="solar:arrow-right-linear" width={18} height={18} />
