@@ -22,7 +22,7 @@ export const foot_nav = {
   resources: [
     {
       title: "Sponsor",
-      link: "https://docs.google.com/presentation/d/14CTUVGzj6fXICJLnSzNqXc-iLpWardOwjIH-AHFQwPs/edit?usp=drivesdk",
+      link: "https://drive.google.com/file/d/1LNhWImoCfSiMEQ-L5upG0WYqHTnzq7Rt/view?usp=sharing",
     },
     {
       title: "FAQs",

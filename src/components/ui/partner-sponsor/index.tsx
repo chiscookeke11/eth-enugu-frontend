@@ -1,13 +1,10 @@
 "use client";
-import {
-  sponsors,
-} from "../eth-enugu/_data";
+import { sponsors } from "../eth-enugu/_data";
 import { Button } from "@/components/common/button";
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Link from "next/link";
 
 export default function PartnerSponsor() {
-
   return (
     <div className="w-full max-w-6xl max-md:px-4 mx-auto flex flex-col gap-24 py-18">
       <section className="w-full flex flex-col gap-14">
@@ -31,9 +28,6 @@ export default function PartnerSponsor() {
             ))}
           </div>
         </div>
-
-
-
       </section>
 
       <section className="w-full bg-dark rounded-3xl md:rounded-[60px] p-20 flex flex-col items-center justify-center gap-12">
@@ -44,7 +38,7 @@ export default function PartnerSponsor() {
         </span>
 
         <Link
-          href="https://docs.google.com/presentation/d/14CTUVGzj6fXICJLnSzNqXc-iLpWardOwjIH-AHFQwPs/edit?usp=drivesdk"
+          href="https://drive.google.com/file/d/1LNhWImoCfSiMEQ-L5upG0WYqHTnzq7Rt/view?usp=sharing"
           target="_blank"
         >
           <Button variant="default" design="rounded" className="gap-4 button">
