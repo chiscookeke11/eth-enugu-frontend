@@ -21,6 +21,33 @@ export const times = [
   },
 ];
 
+
+
+export const times2025 = [
+  {
+    title: "2-weeks",
+    description: "Builder residency & PopUp city",
+    icon: "icon5",
+  },
+  {
+    title: "5 Days",
+    description: "Hackathon",
+    icon: "icon6",
+  },
+  {
+    title: "Enugu",
+    description: "City",
+    icon: "icon7",
+  },
+  {
+    title: "1st ETH Conference",
+    description: " in South-East",
+    icon: "icon8",
+  },
+];
+
+
+
 export const sponsors = [
   {
     name: "Avalanche",

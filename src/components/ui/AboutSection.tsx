@@ -30,25 +30,42 @@ const AboutSection = () => {
     <>
       <div className=" m-auto md:px-8 md:py-10 py-9 w-11/12">
         <h2 className="text-2xl font-bold text-center text-green-550 mb-4">
-          EthEnugu &lsquo;25: A First for Nigeria. <br /> A First for the South East.
+          About EthEnugu &lsquo;26
         </h2>
-        <p className="text-dark text-center md:text-left text-lg mb-6 max-md:text-justify">
-          In August 2025, Enugu State, Nigeria became more than a city. For two unforgettable weeks,
-          it became a living experiment; a pop-up city of builders, dreamers, creators, and innovators.
+        <p className="text-dark text-center md:text-left text-lg mb-6 max-md:text-justify   ">
+          In 2025, our community gathered in Enugu.
+          <br />
+          <br />
+          Builders, developers, creators, and dreamers came together around Ethereum and proved something important:
+          the Southeast has the talent, energy, and appetite to build something bigger.
 
-          And then, history was sealed: the first-ever Ethereum conference in Nigeria,
-          right here in the heart of 042, bringing the Southeast officially Onchain.
+          ETH Enugu ’25 wasn't just a conference. It was the beginning of a movement.
+          The conversations started there haven't stopped.
         </p>
-        <p className="text-dark text-center md:text-left text-lg mb-6 max-md:text-justify">
-          In 2026, the story continues.
-        </p>
+
         <p className="text-dark text-center md:text-left text-lg mx-auto max-md:text-justify mb-6">
-          This year, Enugu becomes the beating heart of Southeast Blockchain & Games Week, connecting blockchain, gaming, builders, creators, and the wider digital economy.
-          From Build Stations across the region to esports, hackathons, creator challenges, exhibitions, and a major gathering in Enugu, the movement is evolving into a regional network of participation.
+          In 2026, ETH Enugu returns bigger and more connected.
         </p>
 
-        <p className="text-dark text-center md:text-left text-lg  max-md:text-justify">
-          We brought the Southeast Onchain. Now, we bring the region together to build, compete, create, connect, and win.
+        <p className="text-dark text-center md:text-left text-lg mx-auto max-md:text-justify mb-6">
+          ETH Enugu ’26 is bringing together builders, developers, creators, gamers, researchers, and innovators
+          from across the Southeast for a week of building, learning, competing, and connecting.
+        </p>
+
+        <p className="text-dark text-center md:text-left text-lg mx-auto max-md:text-justify mb-6">
+          From Build Stations across six states to gaming and esports tournaments, hackathons, creator challenges, exhibitions,
+          and the main gathering in Enugu, this year's edition expands beyond a single conference into a regional movement.
+        </p>
+
+
+        <p className="text-dark text-center md:text-left text-lg mx-auto max-md:text-justify mb-6">
+          The goal is simple: bring the Southeast together, put the region onchain,
+          and create an environment where people can build, collaborate, compete, and win.
+        </p>
+
+
+        <p className="text-dark text-center md:text-left text-lg mx-auto max-md:text-justify mb-6">
+          We brought the Southeast Onchain. Now, we're bringing the region together to build the future.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 space-y-4 md:space-y-0 mt-20 items-center justify-center text-dark text-center">
