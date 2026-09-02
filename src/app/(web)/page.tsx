@@ -1,11 +1,8 @@
 import AboutSection from "@/components/ui/AboutSection";
-import Banner from "@/components/ui/Banner";
 import Banner2 from "@/components/ui/Banner2";
 import GallerySection from "@/components/ui/GallerySection";
-import InfoSection from "@/components/ui/InfoSection";
 import ScrollingText from "@/components/ui/Scrolling-text";
 import SpotLight from "@/components/ui/Spotlight";
-import Testimonials from "@/components/ui/Testimonials";
 import HomeHero from "@/components/ui/hero";
 import PartnerSponsor from "@/components/ui/partner-sponsor";
 
