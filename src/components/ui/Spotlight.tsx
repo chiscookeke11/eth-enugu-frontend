@@ -8,7 +8,7 @@ import Collage from "./Collage";
 
 export default function SpotLight() {
     return (
-        <div className="bg-[#FFF4DE] py-5  md:py-8 px-[5%] flex items-center justify-center flex-col gap-7 " >
+        <div className="bg-[#FFF4DE] py-10  md:py-20 px-[5%] flex items-center justify-center flex-col gap-7 " >
 
 
             <Collage />

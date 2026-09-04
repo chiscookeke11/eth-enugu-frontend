@@ -184,3 +184,14 @@ export interface BuildersResidencyProps {
   hasRegisteredForTheHackathon: string | number | boolean;
   dietaryAccessibilityNeeds: string | number | boolean;
 }
+
+
+
+
+export interface testimonial_data_type {
+  name: string;
+  image: string;
+  content: string;
+  handle: string;
+  tilt: number
+}
